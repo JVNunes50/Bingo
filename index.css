@@ -1,1 +1,147 @@
+body {
+    margin: 0;
+    margin-bottom: 50px;
+    background-color: black;
+}
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: silver;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    margin: 0;
+    padding: 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+
+.container {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+
+#gerar {
+    width: 90px;
+    height: 40px;
+    margin-top: 30px;
+    margin-right: 10px;
+    background-color: green; 
+    color: white; 
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+#resetar {
+    width: 90px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 10px;
+    background-color: red; 
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+
+#iniciar {
+    width: 90px;
+    height: 40px;
+    margin-top: 30px;
+    margin-right: 10px;
+    background-color: green; 
+    color: white; 
+    border: none;
+    border-radius: 15px;
+}
+
+#numeros-sorteados {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.container-numeros {
+    width: 30%;
+}
+
+#area-cartela {
+    max-width: 1000px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cartela {
+    border: 2px solid white;
+    width: 300px;
+    height: 300px;
+    border-collapse: collapse;
+}
+
+.cartela td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid white;
+    font-size: 24px;
+    color: white;
+}
+
+.cartela th {
+    padding: 10px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(100, 4, 109);
+}
+
+.sorteado {
+    background-color: rgb(141, 14, 141);
+}
+
+.numero-sorteado {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: rgb(62, 109, 240);
+} 
+
+.jogador {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 15px;
+    color: white;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    height: 30px;
+    background-color: silver;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
